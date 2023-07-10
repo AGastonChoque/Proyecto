@@ -1,5 +1,4 @@
 header {
-    background-color: #222222;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -9,6 +8,7 @@ header {
     }
 
     .nav-sup {
+        background-color: #222222;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

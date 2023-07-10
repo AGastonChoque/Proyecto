@@ -20,13 +20,13 @@ li {
   list-style: none; }
 
 header {
-  background-color: #222222;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap; }
   header a:active {
     background-color: #4a4b4b; }
   header .nav-sup {
+    background-color: #222222;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -238,36 +238,6 @@ footer .legal {
     text-align: center; }
     .services-body .servicios-main .servicios table td {
       padding: 5px 15px; }
-
-.flota-body .unidades {
-  padding: 5px;
-  margin: 20px; }
-  .flota-body .unidades h3 a {
-    color: black; }
-  .flota-body .unidades ul {
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center; }
-    .flota-body .unidades ul li {
-      padding: 5px;
-      margin: 5px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center; }
-      .flota-body .unidades ul li a img {
-        height: 180px;
-        border-radius: 15px; }
-      .flota-body .unidades ul li p {
-        padding: 5px;
-        margin: 5px;
-        max-width: 200px;
-        text-align: center; }
 
 .news-body .novedades-main h3 {
   padding: 5px;
