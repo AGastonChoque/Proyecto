@@ -1,0 +1,75 @@
+.index-body {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+
+        .hero {
+            max-height: 850px;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                border-radius: 15px;
+                background-color: #222222;
+                font-size: 75px;
+                color: white;
+                position: absolute;
+            }
+        }
+
+        .section {
+            padding: 20px;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                padding: 20px;
+                font-size: 30px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: flex-start;
+
+                p{
+                    font-size: 30px;
+                }
+                
+                img {
+                    padding: 20px;
+                    margin: 20px;
+                    width: 150px;
+                }
+            }
+
+            .nota {
+                padding: 20px;
+                margin: 20px;
+                width: 250px;
+            }
+        }
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}

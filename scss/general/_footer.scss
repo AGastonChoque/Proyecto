@@ -1,0 +1,90 @@
+footer {
+
+    .common {
+        padding: 20px;
+        background-color: #4a4b4b;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        h5 {
+            padding: 0px 0px 15px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        p {
+            color: #ffffff;
+            padding: 0px 0px 10px;
+        }
+
+        li {
+            padding: 0px 0px 10px;
+        }
+
+        .nombre-redes {
+            padding: 0px 20px;
+            margin: 0px 0px 20px;
+
+            a {
+                img {
+                    padding: 5px;
+                    height: 35px;
+                }
+            }
+        }
+
+        .navegacion {
+            padding: 0px 20px;
+            margin: 0px 0px 20px;
+        }
+
+        .newsletter-contact {
+            padding: 0px 20px;
+            margin: 0px 0px 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            div {
+                form {
+                    padding: 0px 0px 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    input {
+                        padding: 5px;
+                        margin: 0px 0px 5px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .legal {
+        padding: 5px;
+        background-color: #5a5b5c;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+
+        p {
+            color: #ffffff;
+            padding: 0px 0px 10px;
+        }
+
+        .logo-footer {
+            height: 75px;
+        }
+
+        a{
+            padding: 0px 0px 10px;
+        }
+    }
+}

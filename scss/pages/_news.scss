@@ -1,0 +1,90 @@
+.novedades-main .hero{
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.novedades-main .hero img{
+    width: 100%;
+}
+
+.novedades-main .hero h2{
+    border-radius: 15px;
+    background-color: #222222;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+}
+
+.novedades-main .div2 h4{
+    padding: 5px;
+    margin: 20px;
+}
+
+.novedades-main .div2{
+    padding: 5px;
+    margin: 20px;
+}
+
+.novedades-main .div2 .twitternews{
+    padding: 5px;
+    margin: 5px;
+}
+
+.novedades-main .div2 .twitternews p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.novedades-main .div2 .twitternews .twtl{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades-main .div2 .noticias{
+    padding: 5px;
+    margin: 5px;
+}
+
+.novedades-main .div2 .noticias section{
+    padding: 5px;
+    margin: 5px;
+}
+
+.novedades-main .div2 .noticias .tit-fecha{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.novedades-main .div2 .noticias .imgp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.novedades-main .div2 .noticias .imgp img{
+    max-width: 75%;
+}
+
+.novedades-main .div2 .noticias .imgp p{
+    display: inline-block;
+}
+
+.novedades-main .div2 h3{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.music-spotify{
+    max-width: 1800px !important;
+}
