@@ -280,18 +280,24 @@ footer .legal {
   font-size: 20px; }
 
 .news-body .novedades-main .div2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "noticias noticias fb" "noticias noticias musica";
+  justify-items: center;
+  align-items: start;
   padding: 5px;
   margin: 20px; }
-  .news-body .novedades-main .div2 .twitternews {
+  .news-body .novedades-main .div2 .fbnews {
+    grid-area: fb;
     padding: 5px;
-    margin: 5px; }
-    .news-body .novedades-main .div2 .twitternews .twtl {
-      padding: 5px;
-      margin: 5px;
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .news-body .novedades-main .div2 .fbnews .fbiframe {
+      margin: auto; }
   .news-body .novedades-main .div2 .noticias {
+    grid-area: noticias;
     padding: 5px;
     margin: 5px; }
     .news-body .novedades-main .div2 .noticias section {
@@ -312,8 +318,10 @@ footer .legal {
         max-width: 75%; }
     .news-body .novedades-main .div2 .noticias .todparr {
       display: inline-block; }
-  .news-body .novedades-main .div2 .music .music-spotify {
-    max-width: 1800px !important; }
+  .news-body .novedades-main .div2 .music {
+    grid-area: musica; }
+    .news-body .novedades-main .div2 .music .music-spotify {
+      height: 75vh; }
 
 .contact-body .contacto-main p {
   padding: 20px 0px;

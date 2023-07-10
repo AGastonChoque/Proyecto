@@ -1,6 +1,7 @@
 .news-body {
 
     .novedades-main {
+
         h3 {
             padding: 5px;
             margin: 5px;
@@ -14,23 +15,34 @@
         }
 
         .div2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            grid-template-areas:
+                "noticias noticias fb"
+                "noticias noticias musica";
+
+            justify-items: center;
+            align-items: start;
+
             padding: 5px;
             margin: 20px;
 
-            .twitternews {
+            .fbnews {
+                grid-area: fb;
                 padding: 5px;
                 margin: 5px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
 
-                .twtl {
-                    padding: 5px;
-                    margin: 5px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+                .fbiframe {
+                    margin: auto;
                 }
             }
 
             .noticias {
+                grid-area: noticias;
                 padding: 5px;
                 margin: 5px;
 
@@ -64,8 +76,10 @@
             }
 
             .music {
+                grid-area: musica;
+
                 .music-spotify {
-                    max-width: 1800px !important;
+                    height: 75vh;
                 }
             }
         }
