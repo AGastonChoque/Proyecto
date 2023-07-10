@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* AJUSTES GENERALES */
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    overflow: hidden;
+}
+
+/* header */
+
+header{
+    padding: 10px 20px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .menu li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 15px 0px;
+}
+
+header img{
+    height: 75px;
+}
+
+/* main */
+
+main{
+    background-color: #ecf0f1;
+}
+
+/* footer */
+
+footer{
+    background-color: #4a4b4b;
+}
+
+footer h5{
+    padding: 0px 0px 15px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+footer li{
+    padding: 0px 0px 10px;
+}
+
+footer p{
+    color: #ffffff;
+    padding: 0px 0px 10px;
+}
+
+footer .common{
+    padding: 20px;
+    background-color: #4a4b4b;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .common a img{
+    padding: 5px;
+    height: 25px;
+}
+
+footer .common .nombre-redes{
+    padding: 0px 20px;
+    margin: 0px 0px 20px;
+}
+
+footer .common .navegacion{
+    padding: 0px 20px;
+    margin: 0px 0px 20px;
+}
+
+footer .common .newsletter-contact{
+    padding: 0px 20px;
+    margin: 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+footer form{
+    padding: 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input{
+    padding: 5px;
+    margin: 0px 0px 5px;
+}
+
+footer .legal{
+    padding: 5px;
+    background-color: #5a5b5c;
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .legal img{
+    height: 75px;
+}
+
+
+/*index*/
+
+.index-main .hero{
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.index-main .hero img{
+    width: 100%;
+}
+
+.index-main .hero h1{
+    border-radius: 15px;
+    background-color: #222222;
+    font-size: 75px;
+    color: white;
+    position: absolute;    
+}
+
+.index-main .section{
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-main .section div{
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.index-main .section .nota{
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+}
+
+.index-main .section div img{
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+}
+
+/* Nosotros */
+
+.nosotros-main .hero{
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nosotros-main .hero img{
+    width: 100%;
+}
+
+.nosotros-main .hero h2{
+    border-radius: 15px;
+    background-color: #222222;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+}
+
+.nosotros-main ul{
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nosotros-main ul li{
+    padding: 5px;
+    margin: 5px;
+}
+
+.nosotros-main h3{
+    padding: 5px 20px;
+    margin: 0px 0px 20px;
+    font-size: 25px;
+}
+
+.nosotros-main ul li div{
+    padding: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 800px;
+}
+
+.nosotros-main ul img{
+    padding: 5px;
+    margin: 0px 15px 30px;
+    width: 150px;
+}
+
+.nosotros-main p{
+    text-align: start;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px 15px 30px;
+}
+
+
+/* Servicios */
+
+.servicios-main .hero{
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.servicios-main .hero img{
+    width: 100%;
+}
+
+.servicios-main .hero h2{
+    border-radius: 15px;
+    background-color: #222222;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+}
+
+.servicios-main .div2{
+    padding: 5px;
+    margin: 20px;
+}
+
+.servicios-main .div2 h3{
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.servicios-main .div2 h3 a{
+    color: #222222;
+}
+
+.servicios-main .div2 table{
+    padding: 5px;
+    margin: 0px 0px 50px;
+    height: 150px;
+    background-image: url(../recursos/otros/texture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.servicios-main .div2 .servicios{
+    padding: 5px;
+    margin: 5px;
+}
+
+.servicios-main .div2 .unidades{
+    padding: 5px;
+    margin: 5px;
+}
+
+.servicios-main .div2 .unidades ul{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.servicios-main .div2 .unidades ul li{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.servicios-main .div2 .unidades ul li p{
+    padding: 5px;
+    margin: 5px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.servicios-main .div2 .unidades img{
+    height: 180px;
+    border-radius: 15px;
+}
+    
+
+/* Novedades */
+
+.novedades-main .hero{
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.novedades-main .hero img{
+    width: 100%;
+}
+
+.novedades-main .hero h2{
+    border-radius: 15px;
+    background-color: #222222;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+}
+
+.novedades-main .div2 h4{
+    padding: 5px;
+    margin: 20px;
+}
+
+.novedades-main .div2{
+    padding: 5px;
+    margin: 20px;
+}
+
+.novedades-main .div2 .twitternews{
+    padding: 5px;
+    margin: 5px;
+}
+
+.novedades-main .div2 .twitternews p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.novedades-main .div2 .twitternews .twtl{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades-main .div2 .noticias{
+    padding: 5px;
+    margin: 5px;
+}
+
+.novedades-main .div2 .noticias section{
+    padding: 5px;
+    margin: 5px;
+}
+
+.novedades-main .div2 .noticias .tit-fecha{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.novedades-main .div2 .noticias .imgp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.novedades-main .div2 .noticias .imgp img{
+    max-width: 75%;
+}
+
+.novedades-main .div2 .noticias .imgp p{
+    display: inline-block;
+}
+
+.novedades-main .div2 h3{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.music-spotify{
+    max-width: 1800px !important;
+}
+
+/* Contacto */
+
+.contacto-main .hero{
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contacto-main .hero img{
+    width: 100%;
+}
+
+.contacto-main .hero h2{
+    border-radius: 15px;
+    background-color: #222222;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+}
+
+.contacto-main p{
+    padding: 20px 0px;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.contacto-main ul{
+    padding: 25px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contacto-main h4{
+    padding: 3px;
+    margin: 3px;
+}
+
+.contacto-main ul li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacto-main ul li img{
+    width: 50px;
+    padding: 5px;
+    margin: 15px 5px 5px 5px;
+}
+
+.contacto-main ul li a{
+    color: black;
+    padding: 5px;
+}
+
+.contacto-main .v-form{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contacto-main .v-form form p{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contacto-main .v-form form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacto-main .v-form form input{
+    padding: 5px;
+    margin: 2px 0px 10px 0px;
+}
+
+.contacto-main .v-form .mensaje{
+    height: 200px;
+}
