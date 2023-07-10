@@ -1,87 +1,74 @@
-.contacto-main .hero{
-    max-height: 850px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
+.contact-body {
 
-.contacto-main .hero img{
-    width: 100%;
-}
+    .contacto-main {
 
-.contacto-main .hero h2{
-    border-radius: 15px;
-    background-color: #222222;
-    font-size: 75px;
-    color: white;
-    position: absolute;
-}
+        p {
+            padding: 20px 0px;
+            margin: 0px 20px;
+            font-size: 20px;
+        }
 
-.contacto-main p{
-    padding: 20px 0px;
-    margin: 0px 20px;
-    font-size: 20px;
-}
+        ul {
+            padding: 25px;
+            margin: 25px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            flex-direction: row;
+            flex-wrap: wrap;
 
-.contacto-main ul{
-    padding: 25px;
-    margin: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+            li {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
 
-.contacto-main h4{
-    padding: 3px;
-    margin: 3px;
-}
+                img {
+                    width: 50px;
+                    padding: 5px;
+                    margin: 15px 5px 5px 5px;
+                }
 
-.contacto-main ul li{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
+                h4 {
+                    padding: 3px;
+                    margin: 3px;
+                }
 
-.contacto-main ul li img{
-    width: 50px;
-    padding: 5px;
-    margin: 15px 5px 5px 5px;
-}
+                a {
+                    color: black;
+                    padding: 5px;
+                }
+            }
+        }
 
-.contacto-main ul li a{
-    color: black;
-    padding: 5px;
-}
+        .v-form {
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
 
-.contacto-main .v-form{
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}
+            p {
+                font-size: 16px;
+                padding: 0px;
+                margin: 0px;
+            }
 
-.contacto-main .v-form form p{
-    font-size: 16px;
-    padding: 0px;
-    margin: 0px;
-}
+            form {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
 
-.contacto-main .v-form form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+                input {
+                    padding: 5px;
+                    margin: 2px 0px 10px 0px;
+                }
 
-.contacto-main .v-form form input{
-    padding: 5px;
-    margin: 2px 0px 10px 0px;
-}
-
-.contacto-main .v-form .mensaje{
-    height: 200px;
+                .mensaje{
+                    height: 200px;
+                }
+            }
+        }
+    }
 }

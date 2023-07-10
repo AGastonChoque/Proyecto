@@ -1,85 +1,48 @@
-.flota-main .hero{
-    max-height: 850px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
+.flota-body {
 
-.flota-main .hero img{
-    width: 100%;
-}
+    .unidades {
+        padding: 5px;
+        margin: 20px;
 
-.flota-main .hero h2{
-    border-radius: 15px;
-    background-color: #222222;
-    font-size: 75px;
-    color: white;
-    position: absolute;
-}
+        h3{
+            a{
+                color: black;
+            }
+        }
 
-.servicios-main .div2{
-    padding: 5px;
-    margin: 20px;
-}
+        ul {
+            padding: 5px;
+            margin: 5px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
 
-.flota-main .div2 h3{
-    padding: 5px;
-    margin: 10px;
-    font-size: 25px;
-}
+            li {
+                padding: 5px;
+                margin: 5px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
 
-.flota-main .div2 h3 a{
-    color: #222222;
-}
+                a {
 
-.flota-main .div2 table{
-    padding: 5px;
-    margin: 0px 0px 50px;
-    height: 150px;
-    background-image: url(../../recursos/otros/texture.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-}
+                    img {
+                        height: 180px;
+                        border-radius: 15px;
+                    }
+                }
 
-.flota-main .div2 .servicios{
-    padding: 5px;
-    margin: 5px;
-}
-
-.flota-main .div2 .unidades{
-    padding: 5px;
-    margin: 5px;
-}
-
-.flota-main .div2 .unidades ul{
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.flota-main .div2 .unidades ul li{
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.flota-main .div2 .unidades ul li p{
-    padding: 5px;
-    margin: 5px;
-    max-width: 200px;
-    text-align: center;
-}
-
-.flota-main .div2 .unidades img{
-    height: 180px;
-    border-radius: 15px;
+                p {
+                    padding: 5px;
+                    margin: 5px;
+                    max-width: 200px;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }

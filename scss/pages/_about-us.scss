@@ -1,7 +1,6 @@
 .about-us-body {
 
     .nosotros-main {
-        
         ul {
             padding: 20px;
             margin: 5px;
@@ -29,22 +28,21 @@
                     flex-wrap: nowrap;
                     align-items: center;
                     max-width: 800px;
+
+                    img {
+                        padding: 5px;
+                        margin: 0px 15px 30px;
+                        width: 150px;
+                    }
+
+                    p {
+                        text-align: start;
+                        font-size: 20px;
+                        padding: 5px;
+                        margin: 0px 15px 30px;
+                    }
                 }
             }
         }
     }
-}
-
-
-.nosotros-main ul img {
-    padding: 5px;
-    margin: 0px 15px 30px;
-    width: 150px;
-}
-
-.nosotros-main p {
-    text-align: start;
-    font-size: 20px;
-    padding: 5px;
-    margin: 0px 15px 30px;
 }
