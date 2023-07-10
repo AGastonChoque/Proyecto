@@ -25,7 +25,7 @@ header {
             }
         }
 
-        a:hover{
+        a:hover {
             color: #c1f3ff;
         }
     }
@@ -34,8 +34,12 @@ header {
         background-color: #2f2f2f !important;
 
         .container-fluid {
+
             .navbar-brand {
                 color: #ecf0f1;
+                padding: 8px;
+                margin: 15px 0px;
+                border-radius: 20px;
             }
 
             .navbar-toggler {
@@ -53,7 +57,7 @@ header {
                             border-radius: 20px;
                         }
 
-                        .nav-link:hover{
+                        .nav-link:hover {
                             color: #c1f3ff;
                         }
 

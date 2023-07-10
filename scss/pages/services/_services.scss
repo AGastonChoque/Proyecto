@@ -2,33 +2,16 @@
 
     .servicios-main {
 
-        .servicios {
-            padding: 5px;
-            margin: 20px;
-
-            h3 {
-                padding: 5px;
-                margin: 10px;
-                font-size: 25px;
-
-                a {
-                    color: #222222;
-                }
-            }
+        
 
             table {
-                padding: 5px;
-                margin: 0px 0px 50px;
-                height: 150px;
-                background-image: url(../../../recursos/otros/texture.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                text-align: center;
+                // padding: 5px;
+                // margin: 0px 0px 50px;
+                // background-image: url(../../../recursos/otros/texture.jpg);
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // text-align: center;
 
-                td{
-                    padding: 5px 15px;
-                }
             }
         }
     }
-}

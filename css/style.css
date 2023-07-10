@@ -43,7 +43,10 @@ header {
   header .navbar {
     background-color: #2f2f2f !important; }
     header .navbar .container-fluid .navbar-brand {
-      color: #ecf0f1; }
+      color: #ecf0f1;
+      padding: 8px;
+      margin: 15px 0px;
+      border-radius: 20px; }
     header .navbar .container-fluid .navbar-toggler {
       background-color: #ecf0f1; }
     header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
@@ -218,26 +221,6 @@ footer .legal {
         font-size: 20px;
         padding: 5px;
         margin: 0px 15px 30px; }
-
-.services-body .servicios-main .servicios {
-  padding: 5px;
-  margin: 20px; }
-  .services-body .servicios-main .servicios h3 {
-    padding: 5px;
-    margin: 10px;
-    font-size: 25px; }
-    .services-body .servicios-main .servicios h3 a {
-      color: #222222; }
-  .services-body .servicios-main .servicios table {
-    padding: 5px;
-    margin: 0px 0px 50px;
-    height: 150px;
-    background-image: url(../../../recursos/otros/texture.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center; }
-    .services-body .servicios-main .servicios table td {
-      padding: 5px 15px; }
 
 .news-body .novedades-main h3 {
   padding: 5px;
