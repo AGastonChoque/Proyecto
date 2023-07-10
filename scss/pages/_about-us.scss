@@ -1,48 +1,52 @@
 .about-us-body {
 
     .nosotros-main {
-        ul {
-            padding: 20px;
-            margin: 5px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-
-            li {
-                padding: 5px;
+        
+        div{
+            
+            ul {
+                padding: 20px;
                 margin: 5px;
-
-                h3 {
-                    padding: 5px 20px;
-                    margin: 0px 0px 20px;
-                    font-size: 25px;
-                }
-
-                div {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+    
+                li {
                     padding: 5px;
-                    margin: 10px 0px;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: nowrap;
-                    align-items: center;
-                    max-width: 800px;
-
-                    img {
-                        padding: 5px;
-                        margin: 0px 15px 30px;
-                        width: 150px;
+                    margin: 5px;
+    
+                    h3 {
+                        padding: 5px 20px;
+                        margin: 0px 0px 20px;
+                        font-size: 25px;
                     }
-
-                    p {
-                        text-align: start;
-                        font-size: 20px;
+    
+                    div {
                         padding: 5px;
-                        margin: 0px 15px 30px;
+                        margin: 10px 0px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        max-width: 800px;
+    
+                        img {
+                            padding: 5px;
+                            margin: 0px 15px 30px;
+                            width: 150px;
+                        }
+    
+                        p {
+                            text-align: start;
+                            font-size: 20px;
+                            padding: 5px;
+                            margin: 0px 15px 30px;
+                        }
                     }
                 }
             }
-        }
+        }        
     }
 }

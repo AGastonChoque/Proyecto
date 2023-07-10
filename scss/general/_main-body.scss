@@ -2,20 +2,3 @@ main{
     background-color: #ecf0f1;
     overflow: hidden;
 }
-
-.hero{
-    max-height: 850px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    img{
-        width: 100%;
-    }
-    h2{
-        border-radius: 15px;
-    background-color: #222222;
-    font-size: 75px;
-    color: white;
-    position: absolute;
-    }
-}

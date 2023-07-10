@@ -68,20 +68,6 @@ main {
   background-color: #ecf0f1;
   overflow: hidden; }
 
-.hero {
-  max-height: 850px;
-  display: flex;
-  align-items: center;
-  overflow: hidden; }
-  .hero img {
-    width: 100%; }
-  .hero h2 {
-    border-radius: 15px;
-    background-color: #222222;
-    font-size: 75px;
-    color: white;
-    position: absolute; }
-
 footer .common {
   padding: 20px;
   background-color: #4a4b4b;
@@ -147,20 +133,6 @@ footer .legal {
     grid-area: header; }
   .index-body main {
     grid-area: main; }
-    .index-body main .hero {
-      max-height: 850px;
-      max-width: 100%;
-      display: flex;
-      align-items: center;
-      overflow: hidden; }
-      .index-body main .hero img {
-        width: 100%; }
-      .index-body main .hero h1 {
-        border-radius: 15px;
-        background-color: #222222;
-        font-size: 75px;
-        color: white;
-        position: absolute; }
     .index-body main .section {
       padding: 20px;
       margin: 5px;
@@ -189,7 +161,7 @@ footer .legal {
   .index-body footer {
     grid-area: footer; }
 
-.about-us-body .nosotros-main ul {
+.about-us-body .nosotros-main div ul {
   padding: 20px;
   margin: 5px;
   text-align: center;
@@ -197,14 +169,14 @@ footer .legal {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center; }
-  .about-us-body .nosotros-main ul li {
+  .about-us-body .nosotros-main div ul li {
     padding: 5px;
     margin: 5px; }
-    .about-us-body .nosotros-main ul li h3 {
+    .about-us-body .nosotros-main div ul li h3 {
       padding: 5px 20px;
       margin: 0px 0px 20px;
       font-size: 25px; }
-    .about-us-body .nosotros-main ul li div {
+    .about-us-body .nosotros-main div ul li div {
       padding: 5px;
       margin: 10px 0px;
       display: flex;
@@ -212,11 +184,11 @@ footer .legal {
       flex-wrap: nowrap;
       align-items: center;
       max-width: 800px; }
-      .about-us-body .nosotros-main ul li div img {
+      .about-us-body .nosotros-main div ul li div img {
         padding: 5px;
         margin: 0px 15px 30px;
         width: 150px; }
-      .about-us-body .nosotros-main ul li div p {
+      .about-us-body .nosotros-main div ul li div p {
         text-align: start;
         font-size: 20px;
         padding: 5px;
