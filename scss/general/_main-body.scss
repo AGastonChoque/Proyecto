@@ -1,4 +1,22 @@
-main{
-    background-color: #ecf0f1;
-    overflow: hidden;
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"
+    ;
+
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+        background-color: #ecf0f1;
+        overflow: hidden;
+    }
+
+    footer {
+        grid-area: footer;
+    }
 }

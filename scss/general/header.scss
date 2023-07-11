@@ -21,7 +21,7 @@ header {
             border-radius: 20px;
 
             img {
-                height: 75px;
+                max-height: 75px;
             }
         }
 
@@ -78,6 +78,16 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    header {
+        .nav-sup {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

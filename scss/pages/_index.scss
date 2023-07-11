@@ -1,17 +1,8 @@
 .index-body {
-    width: 100%;
-    display: grid;
-    grid-template-areas:
-        "header header header header"
-        "main main main main"
-        "footer footer footer footer";
-
-    header {
-        grid-area: header;
-    }
+    
+    
 
     main {
-        grid-area: main;
 
         .section {
             padding: 20px;
@@ -47,9 +38,5 @@
                 width: 250px;
             }
         }
-    }
-
-    footer {
-        grid-area: footer;
     }
 }

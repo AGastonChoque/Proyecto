@@ -37,7 +37,7 @@ header {
       margin: 5px 15px;
       border-radius: 20px; }
       header .nav-sup a img {
-        height: 75px; }
+        max-height: 75px; }
     header .nav-sup a:hover {
       color: #c1f3ff; }
   header .navbar {
@@ -64,9 +64,22 @@ header {
       header .navbar .container-fluid .navbar-collapse .navbar-nav .dropdown-menu li .dropdown-item:active {
         color: #222222; }
 
-main {
-  background-color: #ecf0f1;
-  overflow: hidden; }
+@media (max-width: 425px) {
+  header .nav-sup {
+    display: flex;
+    flex-direction: column; } }
+
+body {
+  display: grid;
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
+  body header {
+    grid-area: header; }
+  body main {
+    grid-area: main;
+    background-color: #ecf0f1;
+    overflow: hidden; }
+  body footer {
+    grid-area: footer; }
 
 footer .common {
   padding: 20px;
@@ -121,45 +134,57 @@ footer .legal {
     color: #ffffff;
     padding: 0px 0px 10px; }
   footer .legal .logo-footer {
-    height: 75px; }
+    max-height: 75px; }
   footer .legal a {
     padding: 0px 0px 10px; }
 
-.index-body {
-  width: 100%;
-  display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
-  .index-body header {
-    grid-area: header; }
-  .index-body main {
-    grid-area: main; }
-    .index-body main .section {
+@media (max-width: 768px) {
+  footer .legal {
+    padding: 5px;
+    background-color: #5a5b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .legal p {
       padding: 20px;
-      margin: 5px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center; }
-      .index-body main .section div {
-        padding: 20px;
-        font-size: 30px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start; }
-        .index-body main .section div p {
-          font-size: 30px; }
-        .index-body main .section div img {
-          padding: 20px;
-          margin: 20px;
-          width: 150px; }
-      .index-body main .section .nota {
-        padding: 20px;
-        margin: 20px;
-        width: 250px; }
-  .index-body footer {
-    grid-area: footer; }
+      text-align: center; }
+    footer .legal a {
+      padding: 20px; } }
+
+@media (max-width: 425px) {
+  footer .common {
+    padding: 20px;
+    background-color: #4a4b4b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column; } }
+
+.index-body main .section {
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .index-body main .section div {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start; }
+    .index-body main .section div p {
+      font-size: 30px; }
+    .index-body main .section div img {
+      padding: 20px;
+      margin: 20px;
+      width: 150px; }
+  .index-body main .section .nota {
+    padding: 20px;
+    margin: 20px;
+    width: 250px; }
 
 .about-us-body .nosotros-main div ul {
   padding: 20px;
@@ -193,6 +218,13 @@ footer .legal {
         font-size: 20px;
         padding: 5px;
         margin: 0px 15px 30px; }
+
+@media (max-width: 768px) {
+  .about-us-body .nosotros-main div ul li div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; } }
 
 .news-body .novedades-main h3 {
   padding: 5px;
@@ -248,6 +280,15 @@ footer .legal {
     .news-body .novedades-main .div2 .music .music-spotify {
       height: 75vh; }
 
+@media (max-width: 768px) {
+  .news-body .novedades-main .div2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+    .news-body .novedades-main .div2 .fbnews .fbiframe iframe {
+      width: 320px; } }
+
 .contact-body .contacto-main p {
   padding: 20px 0px;
   margin: 0px 20px;
@@ -297,3 +338,10 @@ footer .legal {
       margin: 2px 0px 10px 0px; }
     .contact-body .contacto-main .v-form form .mensaje {
       height: 200px; }
+
+@media (max-width: 768px) {
+  .contact-body .contacto-main ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; } }
