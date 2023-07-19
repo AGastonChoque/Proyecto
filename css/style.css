@@ -226,6 +226,15 @@ footer .legal {
     flex-wrap: wrap;
     align-items: center; } }
 
+.services-body main .acordeon .accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #c1f3ff; }
+  .services-body main .acordeon .accordion div h2 button:active {
+    color: #c1f3ff;
+    background-color: #4a4b4b; }
+  .services-body main .acordeon .accordion div h2 .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #5a5b5c; }
+
 .news-body .novedades-main h3 {
   padding: 5px;
   margin: 5px;
