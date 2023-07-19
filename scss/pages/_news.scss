@@ -19,27 +19,14 @@
             grid-template-columns: 1fr 1fr 1fr;
 
             grid-template-areas:
-                "noticias noticias fb"
-                "noticias noticias musica";
+                "noticias noticias aside"
+                "noticias noticias aside";
 
             justify-items: center;
             align-items: start;
 
             padding: 5px;
             margin: 20px;
-
-            .fbnews {
-                grid-area: fb;
-                padding: 5px;
-                margin: 5px;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-
-                .fbiframe {
-                    margin: auto;
-                }
-            }
 
             .noticias {
                 grid-area: noticias;
@@ -75,16 +62,38 @@
                 }
             }
 
-            .music {
-                grid-area: musica;
+            aside {
+                grid-area: aside;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-around;
 
-                .music-spotify {
-                    height: 75vh;
+                .fbnews {
+                    padding: 5px;
+                    margin: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+
+                    h3 {
+                        text-align: center;
+                    }
+
+                    .fbiframe {
+                        margin: auto;
+                    }
+                }
+
+                .music {
+                    .music-spotify {
+                        height: 75vh;
+                    }
                 }
             }
         }
     }
-
 }
 
 @media (max-width: 768px) {
