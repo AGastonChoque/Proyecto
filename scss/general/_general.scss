@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: $normal-pop;
     margin: 0px;
     padding: 0px;
 }
@@ -9,6 +8,10 @@
 a{
     text-decoration: none;
     color: #ffffff;
+}
+
+a:hover{
+    color: $hovercel;
 }
 
 p{
