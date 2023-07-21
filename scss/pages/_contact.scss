@@ -3,9 +3,9 @@
     .contacto-main {
 
         p {
-            padding: 20px 0px;
-            margin: 0px 20px;
-            font-size: 20px;
+            padding: map-get($parr-sup, padd );
+            margin: map-get($parr-sup, marg );
+            font-size: map-get($parr-sup, tfont );
         }
 
         ul {
@@ -17,16 +17,34 @@
             flex-direction: row;
             flex-wrap: wrap;
 
+
             li {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
                 align-items: center;
 
-                img {
-                    width: 50px;
+                // img {
+                //     width: 50px;
+                //     padding: 5px;
+                //     margin: 15px 5px 5px 5px;
+                // }
+
+                @each $icon,
+                $color in $icons {
+                    .icon-#{$icon} {
+                        background-image: url(../../recursos/iconos/#{$icon}-n.png);
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                div {
                     padding: 5px;
                     margin: 15px 5px 5px 5px;
+                    height: 75px;
+                    width: 75px;
                 }
 
                 h4 {
@@ -40,38 +58,39 @@
                 }
             }
         }
+    }
 
-        .v-form {
-            padding: 20px;
-            margin: 20px;
+    .v-form {
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+
+        p {
+            font-size: 16px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        form {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            align-content: center;
 
-            p {
-                font-size: 16px;
-                padding: 0px;
-                margin: 0px;
+            input {
+                padding: 5px;
+                margin: 2px 0px 10px 0px;
             }
 
-            form {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-
-                input {
-                    padding: 5px;
-                    margin: 2px 0px 10px 0px;
-                }
-
-                .mensaje {
-                    height: 200px;
-                }
+            .mensaje {
+                height: 200px;
             }
         }
     }
 }
+
 
 @media (max-width: 768px) {
     .contact-body {
