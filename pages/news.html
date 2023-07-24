@@ -10,12 +10,13 @@
     <link rel="shortcut icon" href="../recursos/logo/icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Novedades | Servicios Confort</title>
 </head>
 
 <body class="news-body">
-    <header id="subir">
+    <header>
         <div class="nav-sup">
             <a href="../index.html">
                 <img class="logo-header" src="../recursos/logo/logo.png" alt="Logo Servicios Confort">
@@ -61,7 +62,7 @@
             </div>
         </nav>
     </header>
-    <main class="novedades-main">
+    <main class="novedades-main" id="subir">
         <div id="carouselExampleCaptions" class="carousel slide hero">
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex align-items-center" style="max-height: 75vh;">
@@ -74,7 +75,7 @@
             </div>
         </div>
         <div class="div2">
-            <article class="noticias">
+            <article class="noticias" data-aos="fade-right" data-aos-duration="2000">
                 <h3>Algunas noticias...</h3>
                 <section class="tit-fecha">
                     <small>09/06/23</small>
@@ -143,7 +144,7 @@
                     <p><b>Fuente: Panorama minero</b></p>
                 </section>
             </article>
-            <aside>
+            <aside data-aos="fade-left" data-aos-duration="2000">
                 <div class="fbnews">
                     <h3>Enterate minuto a minuto de las ultimas noticias relacionadas con tus viajes.</h3>
                     <div class="fbiframe">
@@ -204,7 +205,7 @@
                 </ul>
             </div>
             <div class="newsletter-contact">
-                <div>
+                <div class="newsletter">
                     <h5>Newsletter</h5>
                     <p>Suscribite a nuestro Newsletter y recibí nuestras novedades.</p>
                     <form action="#" method="post" enctype="text/plain">
@@ -213,7 +214,7 @@
                         <input type="submit" value="Enviar">
                     </form>
                 </div>
-                <div>
+                <div class="contact">
                     <h5>Contacto</h5>
                     <ul>
                         <li>
@@ -245,6 +246,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

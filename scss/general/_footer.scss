@@ -1,68 +1,67 @@
 footer {
 
     .common {
-        padding: 20px;
+        padding: 10px;
         background-color: $gris3;
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
         flex-wrap: wrap;
 
-        h5 {
-            padding: 0px 0px 15px;
-            font-size: 20px;
-            color: #ffffff;
-        }
+        div {
+            margin-bottom: 10px;
 
-        p {
-            color: #ffffff;
-            padding: 0px 0px 10px;
-        }
+            h5 {
+                padding: 5px 0px;
+                font-size: 20px;
+                color: #ffffff;
+                font-weight: bold;
+            }
 
-        li {
-            padding: 0px 0px 10px;
-        }
-
-        .nombre-redes {
-            padding: 0px 20px;
-            margin: 0px 0px 20px;
+            p {
+                color: #ffffff;
+                padding: 0px 0px 10px;
+            }
 
             a {
                 img {
-                    padding: 5px;
-                    height: 35px;
+                    margin: 0px 5px;
+                    width: 30px;
+                }
+            }
+
+            ul {
+                li {
+                    margin-bottom: 5px;
                 }
             }
         }
 
-        .navegacion {
-            padding: 0px 20px;
-            margin: 0px 0px 20px;
-        }
-
         .newsletter-contact {
-            padding: 0px 20px;
-            margin: 0px 0px 20px;
+            margin-bottom: 0px;
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            justify-content: flex-start;
 
-            div {
+            .newsletter {
+                margin-bottom: 10px;
+
                 form {
-                    padding: 0px 0px 20px;
                     display: flex;
                     flex-direction: column;
 
                     input {
                         padding: 5px;
-                        margin: 0px 0px 5px;
+                        margin-bottom: 5px;
                     }
                 }
-            }
-        }
 
+                .contact {
+                    margin-bottom: 10px;
+                }
+
+            }
+
+        }
     }
 
     .legal {
@@ -73,55 +72,44 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-
+    
         p {
             color: #ffffff;
             padding: 0px 0px 10px;
         }
-
+    
         .logo-footer {
-            max-height: 75px;
+            max-height: 55px;
         }
-
+    
         a {
             padding: 0px 0px 10px;
         }
     }
 }
 
-@media (max-width: 768px) {
-
-    footer {
-        .legal {
-            padding: 5px;
-            background-color: $gris4;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            p {
-                padding: 20px;
-                text-align: center;
-            }
-
-            a {
-                padding: 20px;
-            }
-        }
-    }
-}
 
 @media (max-width: 425px) {
 
     footer {
+
         .common {
-            padding: 20px;
-            background-color: $gris3;
             display: flex;
-            justify-content: space-evenly;
-            align-items: flex-start;
             flex-direction: column;
         }
-    }
+    
+        .legal {
+            display: flex;
+            flex-direction: column;
+        
+            p{
+                text-align: center;
+            }
 
+            .logo-footer {
+                max-height: 50px;
+                padding-bottom: 10px;
+            }
+        }
+    }
 }

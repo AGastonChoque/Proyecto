@@ -10,7 +10,7 @@
 
         h4 {
             padding: 5px;
-            margin: 20px;
+            margin: 0px;
             font-size: 20px;
         }
 
@@ -104,13 +104,19 @@
             .div2 {
                 display: flex;
                 flex-direction: column;
-                flex-wrap: wrap;
                 align-items: center;
 
-                .fbnews {
-                    .fbiframe {
-                        iframe {
-                            width: 320px;
+                aside{
+                    .fbnews {
+                        .fbiframe {
+                            iframe {
+                                width: 320px;
+                            }
+                        }
+                    }
+                    .music {
+                        .music-spotify {
+                            height: 60vh;
                         }
                     }
                 }

@@ -11,12 +11,13 @@
     <link rel="shortcut icon" href="../../recursos/logo/icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
     <title>Servicios | Servicios Confort</title>
 </head>
 
 <body class="services-body">
-    <header id="subir">
+    <header>
         <div class="nav-sup">
             <a href="../../index.html">
                 <img class="logo-header" src="../../recursos/logo/logo.png" alt="Logo Servicios Confort">
@@ -62,7 +63,7 @@
             </div>
         </nav>
     </header>
-    <main class="servicios-main">
+    <main class="servicios-main" id="subir">
         <div id="carouselExampleCaptions" class="carousel slide hero">
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex align-items-center" style="max-height: 75vh;">
@@ -75,7 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="acordeon p-2 m-3">
+        <div class="acordeon p-2 m-3" data-aos="fade-right" data-aos-duration="2000">
             <h3 class="text-black">Tipos de servicios</h3>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -218,7 +219,7 @@
                 </ul>
             </div>
             <div class="newsletter-contact">
-                <div>
+                <div class="newsletter">
                     <h5>Newsletter</h5>
                     <p>Suscribite a nuestro Newsletter y recibí nuestras novedades.</p>
                     <form action="#" method="post" enctype="text/plain">
@@ -227,7 +228,7 @@
                         <input type="submit" value="Enviar">
                     </form>
                 </div>
-                <div>
+                <div class="contact">
                     <h5>Contacto</h5>
                     <ul>
                         <li>
@@ -259,6 +260,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

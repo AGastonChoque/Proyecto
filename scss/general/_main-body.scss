@@ -14,9 +14,19 @@ body {
         grid-area: main;
         background-color: $blancoceleste;
         overflow: hidden;
+        margin-top: 125px;
     }
 
     footer {
         grid-area: footer;
+    }
+}
+
+@media (max-width: 425px) {
+
+    body {
+        main {
+            margin-top: 135px;
+        }
     }
 }

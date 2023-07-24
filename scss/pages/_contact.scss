@@ -3,9 +3,9 @@
     .contacto-main {
 
         p {
-            padding: map-get($parr-sup, padd );
-            margin: map-get($parr-sup, marg );
-            font-size: map-get($parr-sup, tfont );
+            padding: map-get($parr-sup, padd);
+            margin: map-get($parr-sup, marg);
+            font-size: map-get($parr-sup, tfont);
         }
 
         ul {
@@ -34,9 +34,10 @@
                 $color in $icons {
                     .icon-#{$icon} {
                         background-image: url(../../recursos/iconos/#{$icon}-n.png);
-                        background-position: center;
-                        background-size: contain;
-                        background-repeat: no-repeat;
+                    }
+
+                    .txt-#{$icon} {
+                        color: $color;
                     }
                 }
 
@@ -45,6 +46,9 @@
                     margin: 15px 5px 5px 5px;
                     height: 75px;
                     width: 75px;
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
                 }
 
                 h4 {
@@ -62,11 +66,16 @@
 
     .v-form {
         padding: 20px;
-        margin: 20px;
+        margin: 20px auto 50px auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
+        max-width: 300px;
+        border-radius: 20px;
+        background: #ecf0f1;
+        box-shadow: 20px 20px 40px #8e9091,
+            -20px -20px 40px #ffffff;
 
         p {
             font-size: 16px;
@@ -102,6 +111,13 @@
                 flex-direction: column;
                 flex-wrap: wrap;
                 align-items: center;
+                align-content: center;
+
+                li {
+                    a {
+                        text-align: center;
+                    }
+                }
             }
         }
     }
