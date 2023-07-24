@@ -22,7 +22,7 @@
 
                 @each $icon, $color in $icons {
                     .icon-#{$icon} {
-                        background-image: url(../../recursos/iconos/#{$icon}-n.png);
+                        background-image: url(../recursos/iconos/#{$icon}-n.png);
                     }
 
                     .txt-#{$icon} {
