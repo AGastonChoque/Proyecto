@@ -77,26 +77,26 @@
         </div>
         <p>Atención de Lun a Dom. de 8:00 a 20:30hs.</p>
         <ul data-aos="flip-down" data-aos-duration="2500">
-            <li>
+            <li class="li-fb">
                 <div class="icon-wpp"></div>
                 <!-- <img src="../recursos/iconos/wpp-n.png" alt="Whatsapp icon"> -->
                 <h4 class="txt-wpp">Whatsapp</h4>
                 <a href="https://api.whatsapp.com/send/?phone=000000000000&text&type=phone_number&app_absent=0"
                     target="_blank">+54 3873 15-XXXX</a>
             </li>
-            <li>
+            <li class="li-tel">
                 <div class="icon-tel"></div>
                 <!-- <img src="../recursos/iconos/tel-n.png" alt="Telefono icon"> -->
                 <h4 class="txt-tel">Telefono</h4>
                 <a href="#" target="_blank">+54 3873 42-XXXX</a>
             </li>
-            <li>
+            <li class="li-mail">
                 <div class="icon-mail"></div>
                 <!-- <img src="../recursos/iconos/mail-n.png" alt="Mail icon"> -->
                 <h4 class="txt-mail">Mail</h4>
                 <a href="mailto:correodelaempresa@gmail.com" target="_blank">serviciosconfort@confort.com</a>
             </li>
-            <li>
+            <li class="li-map">
                 <div class="icon-map"></div>
                 <!-- <img src="../recursos/iconos/map-n.png" alt="Ubicacion icon"> -->
                 <h4 class="txt-map">Direccion</h4>
@@ -105,18 +105,29 @@
             </li>
         </ul>
         <div class="v-form" data-aos="zoom-out-up" data-aos-duration="2000">
-            <p>Contáctanos para mas informacion</p>
-            <form action="#" method="post" enctype="text/plain">
-                <p>Nombre</p>
-                <input class="nombre" type="text" name="Nombre" placeholder="Nombre" required>
-                <p>Email</p>
-                <input class="email" type="email" name="Email" placeholder="Email" required>
-                <p>Telefono</p>
-                <input class="telefono" type="number" name="Telefono" placeholder="Telefono" required>
-                <p>Mensaje</p>
-                <input class="mensaje" type="message" name="Mensaje" placeholder="Mensaje" required>
-                <input class="enviar" type="submit" value="Enviar">
+            <form action="#" method="post" enctype="text/plain" class="form">
+                <h2>Contactanos</h2>
+                <p type="Nombre:">
+                    <input type="text" name="Nombre" placeholder="Nombre" required></input>
+                </p>
+                <p type="Mail:">
+                    <input type="email" name="Email" placeholder="Email" required></input>
+                </p>
+                <p type="Telefono:">
+                    <input type="number" name="Telefono" placeholder="Telefono" required></input>
+                </p>
+                <p type="Mensaje:">
+                    <input type="message" name="Mensaje" placeholder="Mensaje" required></input>
+                </p>
+                <button>
+                    <input type="submit" value="Enviar">
+                </button>
+                <div>
+                    <span class="fa fa-phone"></span>3873 42XXXX
+                    <span class="fa fa-envelope-o"></span> mail@serviciosconfort.com
+                </div>
             </form>
+
         </div>
     </main>
     <footer>

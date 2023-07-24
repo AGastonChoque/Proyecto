@@ -25,3 +25,16 @@ $icons: (
     tel: #1631c9,
     wpp: #039e3f,
 );
+
+@mixin contact-social ($color, $altura, $ancho) {
+    margin: 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: $color;
+    height: $altura;
+    width: $ancho;
+}
