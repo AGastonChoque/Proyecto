@@ -94,9 +94,7 @@ header {
 
 body {
   display: grid;
-  grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
   body header {
     grid-area: header; }
   body main {
@@ -265,8 +263,7 @@ footer .legal {
 .news-body .novedades-main .div2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "noticias noticias aside"
- "noticias noticias aside";
+  grid-template-areas: "noticias noticias aside" "noticias noticias aside";
   justify-items: center;
   align-items: start;
   padding: 5px;
