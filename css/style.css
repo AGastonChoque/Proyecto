@@ -374,8 +374,7 @@ footer .legal {
     background-color: #e6e6e6;
     height: 300px;
     width: 300px;
-    box-shadow: -10px 0 25px 1px #5a5b5c;
-    z-index: 1; }
+    box-shadow: -10px 0 25px 1px #5a5b5c; }
   .contact-body .contacto-main ul .li-tel {
     margin: 5px;
     border-radius: 8px;
