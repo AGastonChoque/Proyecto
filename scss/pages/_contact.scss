@@ -12,15 +12,16 @@
             padding: 25px;
             margin: 25px;
             display: flex;
-            justify-content: space-around;
-            align-items: flex-end;
             flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
             flex-wrap: wrap;
 
 
             li {
 
-                @each $icon, $color in $icons {
+                @each $icon,
+                $color in $icons {
                     .icon-#{$icon} {
                         background-image: url(../recursos/iconos/#{$icon}-n.png);
                     }
@@ -51,20 +52,22 @@
                 }
             }
 
-            .li-fb{
-                @include contact-social (#e0e0e0, 300px, 300px)
+            .li-wpp {
+                @include contact-social ($grisform, 300px, 300px, -10px 0 25px 1px $gris4);
+                z-index: 1;
+                
             }
 
-            .li-tel{
-                @include contact-social (#d1d1d1, 500px, 300px)
+            .li-tel {
+                @include contact-social ($grisform, 350px, 300px, -10px 0 20px 1px $gris4)
             }
 
-            .li-mail{
-                @include contact-social (#d1d1d1, 500px, 300px)
+            .li-mail {
+                @include contact-social ($grisform, 350px, 300px, 10px 0 20px 1px $gris4)
             }
 
-            .li-map{
-                @include contact-social (#e0e0e0, 300px, 300px)
+            .li-map {
+                @include contact-social ($grisform, 300px, 300px, 10px 0 25px 1px $gris4)
             }
 
         }
@@ -170,6 +173,40 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .contact-body {
+
+        .contacto-main {
+
+            ul {
+
+                .li-wpp {
+                    width: 350px;
+                    height: 200px;
+                    box-shadow: -10px 0 25px 1px $gris4;
+                }
+
+                .li-tel {
+                    width: 350px;
+                    height: 200px;
+                    box-shadow: 10px 0 25px 1px $gris4;
+                }
+
+                .li-mail {
+                    width: 350px;
+                    height: 200px;
+                    box-shadow: -10px 0 25px 1px $gris4;
+                }
+
+                .li-map {
+                    width: 350px;
+                    height: 200px;
+                    box-shadow: 10px 0 25px 1px $gris4;
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 768px) {
     .contact-body {
@@ -187,6 +224,26 @@
                     a {
                         text-align: center;
                     }
+                }
+
+                .li-wpp {
+                    height: 275px;
+                    box-shadow: 0 0 20px 1px $gris4;
+                }
+
+                .li-tel {
+                    height: 275px;
+                    box-shadow: 0 0 20px 1px $gris4;
+                }
+
+                .li-mail {
+                    height: 275px;
+                    box-shadow: 0 0 20px 1px $gris4;
+                }
+
+                .li-map {
+                    height: 275px;
+                    box-shadow: 0 0 20px 1px $gris4;
                 }
             }
         }

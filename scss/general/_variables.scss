@@ -12,6 +12,7 @@ $gris1: #222222;
 $gris2: #2f2f2f;
 $gris3: #4a4b4b;
 $gris4: #5a5b5c;
+$grisform: #e6e6e6;
 
 $parr-sup: (
     padd: 20px 0px,
@@ -20,15 +21,15 @@ $parr-sup: (
 );
 
 $icons: (
-    mail: #ffb005,
+    mail: #ff7e05,
     map: #e100ff,
     tel: #1631c9,
     wpp: #039e3f,
 );
 
-@mixin contact-social ($color, $altura, $ancho) {
+@mixin contact-social ($color, $altura, $ancho, $sombra) {
     margin: 5px;
-    border-radius: 25px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -37,4 +38,5 @@ $icons: (
     background-color: $color;
     height: $altura;
     width: $ancho;
+    box-shadow: $sombra;
 }
