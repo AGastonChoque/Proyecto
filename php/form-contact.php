@@ -1,20 +1,20 @@
 <?php
 
-$nombreFormContact = $_POST ["Nombre"]
-$emailFormContact = $_POST ["Email"]
-$telefonoFormContact = $_POST ["Telefono"]
-$mensajeFormContact = $_POST ["Mensaje"]
+$nombreFC = $_POST['NombreFC'];
+$emailFC = $_POST['EmailFC'];
+$telefonoFC = $_POST['TelefonoFC'];
+$mensajeFC = $_POST['MensajeFC'];
 
-$mensaje = "Este mensaje fue enviado por $nombreFormContact : \r\n";
-$mensaje = "$mensajeFormContact \r\n";
-$mensaje = "Puedes contactarlo mediande su email: $emailFormContact o su telefono $telefonoFormContact \r\n";
-$mensaje = "Enviado el "date("d/m/Y", time())"
+$mensaje = "Este mensaje fue enviado por " . $nombreFC . ":\r\n";
+$mensaje .= "" . $mensajeFC . "\r\n";
+$mensaje .= "Sus medios de contacto son: \r\n";
+$mensaje .= "Email: " . $emailFC . "\r\n";
+$mensaje .= "Telefono: " . $telefonoFC . "";
 
-$micorreo = "gastonchoque95@gmail.com";
-$asunto = "Hey, $nombreFormContact te ha dejado un mensaje"
+$correo = 'gastonchoque95@gmail.com';
+$asunto = "Tienes un mensaje nuevo desde la web de Servicios Confort";
 
-mail($micorreo, $asunto utf8_decode($mensaje), $header);
+header('location:../pages/forms/contacto-form.html');
 
-header('location: "../pages/contact-form")
-
+mail($correo, $asunto, $mensaje, $header);
 ?>

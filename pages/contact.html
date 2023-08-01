@@ -22,7 +22,7 @@
             <a href="../index.html">
                 <img class="logo-header" src="../recursos/logo/logo.png" alt="Logo Servicios Confort">
             </a>
-            <a href="./acoount/login.html">
+            <a href="./account/login.html">
                 Iniciar sesión
             </a>
         </div>
@@ -105,19 +105,19 @@
             </li>
         </ul>
         <div class="v-form" data-aos="zoom-out-up" data-aos-duration="2000">
-            <form action="../php/form-contact.php" method="post" enctype="text/plain" class="form">
+            <form action="../php/form-contact.php" method="post" class="form">
                 <h2>Contáctanos</h2>
                 <p type="Nombre:">
-                    <input type="text" name="Nombre" placeholder="Nombre" required>
+                    <input type="text" name="NombreFC" placeholder="Nombre" required>
                 </p>
                 <p type="Mail:">
-                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="email" name="EmailFC" placeholder="Email" required>
                 </p>
                 <p type="Telefono:">
-                    <input type="number" name="Telefono" placeholder="Telefono" required>
+                    <input type="number" name="TelefonoFC" placeholder="Telefono" required>
                 </p>
                 <p type="Mensaje:">
-                    <input type="message" name="Mensaje" placeholder="Mensaje" required>
+                    <input type="message" name="MensajeFC" placeholder="Mensaje" required>
                 </p>
                 <button>
                     <input type="submit" value="Enviar">
@@ -171,7 +171,7 @@
                 <div class="newsletter">
                     <h5>Newsletter</h5>
                     <p>Suscribite a nuestro Newsletter y recibí nuestras novedades.</p>
-                    <form action="#" method="post" enctype="text/plain">
+                    <form action="../php/form-newslet.php" method="post">
                         <input type="text" placeholder="Nombre" name="Nombre" required>
                         <input type="email" placeholder="Email" name="Email" required>
                         <input type="submit" value="Enviar">

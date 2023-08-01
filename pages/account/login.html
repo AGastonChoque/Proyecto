@@ -5,25 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Servicio corporativo - Gestiona tus viajes y realiza un seguimiento de los mismos.">
-    <meta name="keywords"
-        content="VIAJES, CORPORATIVO, EJECUTIVO, GESTION, RESERVAS, NOVEDADES, ACTUALIZACIONES, SEGUIMIENTO">
+    <meta name="description" content="Servicio corporativo dedicado a la gestion de viajes.">
+    <meta name="keywords" content="VIAJES, CORPORATIVO, EJECUTIVO, RESERVAS, NOVEDADES, ACTUALIZACIONES, SEGUIMIENTO">
     <link rel="shortcut icon" href="../../recursos/logo/icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>Mi cuenta | Servicios Confort</title>
+    <title>Iniciar sesion | Servicios Confort</title>
 </head>
 
-<body class="account-body">
+<body class="login-body">
     <header>
         <div class="nav-sup">
             <a href="../../index.html">
                 <img class="logo-header" src="../../recursos/logo/logo.png" alt="Logo Servicios Confort">
             </a>
-            <a href="./account.html">
-                Mi cuenta
+            <a href="./login.html">
+                Iniciar sesión
             </a>
         </div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -63,20 +62,36 @@
             </div>
         </nav>
     </header>
-    <main class="account-main" id="subir">
+    <main class="login-main" id="subir">
         <div id="carouselExampleCaptions" class="carousel slide hero">
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex align-items-center" style="max-height: 75vh;">
-                    <img src="../../recursos/hero/logistica.jpg" class="d-block w-100"
-                        alt="Personas gestionando viajes">
+                    <img src="../../recursos/hero/login.jpg" class="d-block w-100"
+                        alt="Imagen con fichas deletreando LOGIN">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2>Mi cuenta</h2>
-                        <p>Gestiona todos tus viajes.</p>
+                        <h2>Iniciar sesion</h2>
+                        <p>Exclusivo para clientes corporativos.</p>
                     </div>
                 </div>
             </div>
         </div>
-
+        <form action="../../php/form-login.php" method="post" class="form" data-aos="zoom-out-up" data-aos-duration="2000">
+            <h2>Tu cuenta</h2>
+            <p type="Usuario:">
+                <input type="text" name="User" placeholder="Usuario" required>
+            </p>
+            <p type="Contraseña:">
+                <input type="password" name="Password" placeholder="Contraseña" required>
+            </p>
+            <button>
+                <input type="submit" value="Enviar">
+            </button>
+            <div>
+                <span class="fa fa-olv">
+                    <a href="#">Olvidaste tu usuario o contraseña?</a>
+                </span>
+            </div>
+        </form>
     </main>
     <footer>
         <div class="common">
@@ -120,7 +135,7 @@
                 <div class="newsletter">
                     <h5>Newsletter</h5>
                     <p>Suscribite a nuestro Newsletter y recibí nuestras novedades.</p>
-                    <form action="#" method="post" enctype="text/plain">
+                    <form action="../../php/form-newslet.php" method="post">
                         <input type="text" placeholder="Nombre" name="Nombre" required>
                         <input type="email" placeholder="Email" name="Email" required>
                         <input type="submit" value="Enviar">
@@ -158,6 +173,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

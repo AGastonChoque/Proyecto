@@ -94,7 +94,9 @@ header {
 
 body {
   display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "main main main main"
+ "footer footer footer footer"; }
   body header {
     grid-area: header; }
   body main {
@@ -107,7 +109,7 @@ body {
 
 @media (max-width: 425px) {
   body main {
-    margin-top: 135px; } }
+    margin-top: 134px; } }
 
 footer .common {
   padding: 10px;
@@ -263,7 +265,8 @@ footer .legal {
 .news-body .novedades-main .div2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "noticias noticias aside" "noticias noticias aside";
+  grid-template-areas: "noticias noticias aside"
+ "noticias noticias aside";
   justify-items: center;
   align-items: start;
   padding: 5px;
@@ -348,7 +351,7 @@ footer .legal {
   .contact-body .contacto-main ul li .icon-wpp {
     background-image: url(../recursos/iconos/wpp-n.png); }
   .contact-body .contacto-main ul li .txt-wpp {
-    color: #039e3f; }
+    color: #0faf00; }
   .contact-body .contacto-main ul li div {
     padding: 5px;
     margin: 15px 5px 5px 5px;
@@ -374,7 +377,8 @@ footer .legal {
     background-color: #e6e6e6;
     height: 300px;
     width: 300px;
-    box-shadow: -10px 0 25px 1px #5a5b5c; }
+    box-shadow: -10px 0 25px 1px #5a5b5c;
+    z-index: 1; }
   .contact-body .contacto-main ul .li-tel {
     margin: 5px;
     border-radius: 8px;
@@ -604,3 +608,23 @@ footer .legal {
     font-size: 13px;
     box-shadow: 10px 10px 40px -14px #000;
     text-align: center; }
+
+.newsletter-body main .suscripcion-exito {
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 20px auto;
+  padding: 20px 30px;
+  text-align: center;
+  width: 720px;
+  max-width: calc(100vw - 40px); }
+
+.mensaje-body main .mensaje-exito {
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 20px auto;
+  padding: 20px 30px;
+  text-align: center;
+  width: 720px;
+  max-width: calc(100vw - 40px); }

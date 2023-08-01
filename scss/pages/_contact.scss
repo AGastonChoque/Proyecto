@@ -53,7 +53,8 @@
             }
 
             .li-wpp {
-                @include contact-social ($grisform, 300px, 300px, -10px 0 25px 1px $gris4);              
+                @include contact-social ($grisform, 300px, 300px, -10px 0 25px 1px $gris4);
+                z-index: 1;              
             }
 
             .li-tel {

@@ -24,7 +24,7 @@
             <a href="./index.html">
                 <img class="logo-header" src="./recursos/logo/logo.png" alt="Logo Servicios Confort">
             </a>
-            <a href="./pages/acoount/login.html">
+            <a href="./pages/account/login.html">
                 Iniciar sesión
             </a>
         </div>
@@ -128,9 +128,9 @@
                 <div class="newsletter">
                     <h5>Newsletter</h5>
                     <p>Suscribite a nuestro Newsletter y recibí nuestras novedades.</p>
-                    <form action="#" method="post" enctype="text/plain">
-                        <input type="text" placeholder="Nombre" name="Nombre">
-                        <input type="email" placeholder="Email" name="Email">
+                    <form action="./php/form-newslet.php" method="post">
+                        <input type="text" placeholder="Nombre" name="Nombre" required>
+                        <input type="email" placeholder="Email" name="Email" required>
                         <input type="submit" value="Enviar">
                     </form>
                 </div>
@@ -170,7 +170,6 @@
     <script>
         AOS.init();
     </script>
-
 
 </body>
 
