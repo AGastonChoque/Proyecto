@@ -102,11 +102,13 @@ header {
             display: flex;
             flex-direction: column;
             align-content: center;
-            a{
+
+            a {
                 padding: 2px;
                 margin: 2px;
                 font-size: 15px;
-                img{
+
+                img {
                     max-height: 50px;
                 }
             }
