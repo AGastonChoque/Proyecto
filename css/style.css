@@ -94,9 +94,7 @@ header {
 
 body {
   display: grid;
-  grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
   body header {
     grid-area: header; }
   body main {
@@ -265,8 +263,7 @@ footer .legal {
 .news-body .novedades-main .div2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "noticias noticias aside"
- "noticias noticias aside";
+  grid-template-areas: "noticias noticias aside" "noticias noticias aside";
   justify-items: center;
   align-items: start;
   padding: 5px;
@@ -482,7 +479,7 @@ footer .legal {
     .contact-body .v-form .form div {
       content: 'Hi';
       position: absolute;
-      bottom: -40px;
+      bottom: -60px;
       right: -20px;
       background: #50505a;
       color: #fff;
@@ -490,7 +487,8 @@ footer .legal {
       padding: 16px 4px 16px 0;
       border-radius: 6px;
       font-size: 13px;
-      box-shadow: 10px 10px 40px -14px #000; }
+      box-shadow: 10px 10px 40px -14px #000;
+      text-align: center; }
       .contact-body .v-form .form div span {
         margin: 0 5px 0 15px; }
 
@@ -544,7 +542,7 @@ footer .legal {
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
   position: relative;
-  min-height: 400px; }
+  min-height: 430px; }
   .login-body main .form h2 {
     margin: 10px 0;
     padding-bottom: 10px;
