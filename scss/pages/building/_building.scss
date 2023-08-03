@@ -1,0 +1,15 @@
+.building-body {
+
+    main {
+        .building-redir {
+            background: #e6e6e6;
+            border-radius: 8px;
+            box-shadow: 0 0 40px -10px #000;
+            margin: 20px auto;
+            padding: 20px 30px;
+            text-align: center;
+            width: 720px;
+            max-width: calc(100vw - 40px);
+        }
+    }
+}
