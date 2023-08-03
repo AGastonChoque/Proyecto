@@ -8,44 +8,49 @@
 
 
 <url>
-  <loc>https://serviciosconfort.com.ar/</loc>
-  <lastmod>2023-08-01T21:10:18+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/</loc>
+  <lastmod>2023-08-03T00:49:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/index.html</loc>
-  <lastmod>2023-08-01T21:10:18+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/index.html</loc>
+  <lastmod>2023-08-03T00:49:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/pages/account/login.html</loc>
-  <lastmod>2023-08-01T21:10:23+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/pages/account/login.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/pages/about-us.html</loc>
-  <lastmod>2023-08-01T21:10:18+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/pages/about-us.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/pages/services/services.html</loc>
-  <lastmod>2023-08-01T21:10:23+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/pages/services/services.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/pages/services/flota.html</loc>
-  <lastmod>2023-08-01T21:10:23+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/pages/services/flota.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/pages/news.html</loc>
-  <lastmod>2023-08-01T21:10:18+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/pages/news.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://serviciosconfort.com.ar/pages/contact.html</loc>
-  <lastmod>2023-08-01T21:10:18+00:00</lastmod>
+  <loc>https://www.serviciosconfort.com.ar/pages/contact.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.serviciosconfort.com.ar/pages/building/building.html</loc>
+  <lastmod>2023-08-03T00:49:57+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
